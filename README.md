@@ -1,6 +1,6 @@
 ## 自分用メモ
 
- *get_post_meta($post_id, $key, $single)* 
+ **get_post_meta($post_id, $key, $single)** 
 
 $keyが配列の場合はシリアライズされている。
 $singleをtrueとするとでデシリアライズされる。
@@ -11,7 +11,7 @@ $singleはデフォルトはfalse
 
 ---
 
- *ページに表示させるには* 
+ **ページに表示させるには** 
 
 `require_once(WP_PLUGIN_DIR.'/e2d3-event-info/class-e2d3-event-info.php');`
 
